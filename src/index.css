@@ -1,0 +1,109 @@
+/* It's for removing extra white space on Top */
+* {
+  margin: 0;
+  overflow: hidden;
+}
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 800px) {
+  .MuiSvgIcon-root {
+    height: 0.9rem !important;
+    width: 0.9rem !important;
+  }
+
+  .sidebar {
+    flex: none !important;
+    padding: 0.1rem;
+  }
+  .mail__body {
+    margin: 10px !important;
+    padding: 10px !important;
+  }
+}
+
+@media only screen and (max-width: 550px) {
+  .mail__toolsleft {
+    display: none;
+  }
+  .mail__bodyHeader {
+    font-size: 12px;
+    padding: 10px !important;
+    flex-direction: column;
+  }
+  .mail__time {
+    display: none;
+  }
+
+  .sendMail {
+    font-size: 0.8rem;
+    width: 50% !important;
+    height: 50% !important;
+  }
+  .img > img {
+    width: 100%;
+    font-size: 2rem !important;
+  }
+  .emailRow__options {
+    height: 0px !important;
+    width: 0rem !important;
+    padding-left: 1rem;
+  }
+  .emailRow__message {
+    display: none !important;
+  }
+  .emailRow > h3 {
+    flex: 1;
+    text-align: center;
+  }
+  .emailRow > p {
+    display: none;
+  }
+
+  .MuiSvgIcon-root {
+    height: 0.9rem !important;
+    width: 0.9rem !important;
+  }
+  .emailList__settings {
+    height: 0rem;
+    width: 0rem;
+  }
+  .emailList__Sections {
+    display: flex !important;
+    flex-direction: column !important;
+  }
+
+  .section > h4 {
+    margin-left: 35px !important;
+  }
+  .section > .MuiSvgIcon-root {
+    margin-left: 25px !important;
+  }
+
+  .sidebar {
+    flex: none !important;
+    padding: 0.1rem;
+  }
+  .header__middle {
+    visibility: hidden;
+  }
+
+  .sidebar__button {
+    display: flex;
+    font-size: 1 0px !important;
+    align-items: center;
+  }
+}
